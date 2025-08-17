@@ -12,8 +12,8 @@ function detectLocaleFromUrl() {
 i18n.use(initReactI18next).init({
   lng: detectLocaleFromUrl(),
   fallbackLng: "en",
-  ns: ["common", "page"], // 👈 namespaces disponibles
-  defaultNS: "common", // 👈 el namespace usado si no indicás uno
+  ns: ["common", "page"],
+  defaultNS: "common",
   resources: {
     en: {
       common: translateCommonEn,

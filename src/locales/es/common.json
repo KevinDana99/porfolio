@@ -1,7 +1,28 @@
 {
   "Navbar.item.about": "Acerca de mi",
-  "Navbar.item.proyects": "Proyectos",
+  "Navbar.item.projects": "Proyectos",
   "Navbar.item.blog": "Blog",
   "Navbar.item.courses": "Cursos",
-  "Navbar.item.certifications": "Certificados"
+  "Navbar.item.certifications": "Certificados",
+
+  "Hero.Title.Text": "Desarrollador frontend SSR",
+  "Hero.Button.Text": "Descargar CV",
+
+  "About.Section.Title": "Acerca de mi",
+  "About.Text": "Hola 👋, soy Kevin Dana!! SSR. Frontend developer | Desarrollador Web Full Stack | CEO en AION TECHNOLOGIES | Con más de 5 años de experiencia en desarrollo | Apasionado por crear soluciones tecnologicas que resuelvan problemas en la vida de las personas. He desarrollado apps, webs y plugins para WordPress y Shopify",
+
+  "Experience.Section.Title": "Experiencia",
+  "Experience.Section.Github.Title": "Ultimos desarrollos",
+  "Experience.Section.Github.Button": "Ver mas",
+
+  "Projects.Section.Title": "Proyectos",
+
+  "Certifications.Section.Title": "Certificaciones",
+  "Certifications.Section.Button": "Todas las certificaciones",
+  "Certifications.Button.Text": "Ver certificacion",
+
+  "Skills.Section.Title": "Habilidades",
+  "Skills.Learning.Title": "Aprendiendo",
+
+  "Testimonials.Title": "Testimonios"
 }

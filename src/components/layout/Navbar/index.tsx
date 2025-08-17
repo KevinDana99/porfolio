@@ -19,7 +19,7 @@ const Nabvar = () => {
       name: `${t("Navbar.item.about")}`,
       href: "/",
     },
-    { name: `${t("Navbar.item.proyects")}`, href: "/proyects" },
+    { name: `${t("Navbar.item.projects")}`, href: "/projects" },
     { name: `${t("Navbar.item.blog")}`, href: "/blog" },
     { name: `${t("Navbar.item.courses")}`, href: "/courses" },
     { name: `${t("Navbar.item.certifications")}`, href: "/certifications" },

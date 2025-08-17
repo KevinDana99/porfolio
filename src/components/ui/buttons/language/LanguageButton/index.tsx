@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import languages from "./languages";
 import { useClickOutside } from "@/hooks/useClickOutside";
 import i18n from "@/locales/i18n";
+import { useParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const LanguageButton = () => {
+  const { locale } = useParams();
+  const router = useRouter();
   const [visibleMenu, setVisibleMenu] = useState(false);
 
   const handleVisibleMenu = (visible: boolean) => {
@@ -14,6 +18,7 @@ const LanguageButton = () => {
   const handleSelectedLanguage = (currentLanguage: string) => {
     setSelectedLanguage(currentLanguage);
     i18n.changeLanguage(currentLanguage);
+    router.push(currentLanguage);
     handleVisibleMenu(false);
   };
 
@@ -21,6 +26,9 @@ const LanguageButton = () => {
   const currentLanguage =
     languages.find((el) => el.tag === selectedLanguage) ?? languages[0];
 
+  useEffect(() => {
+    setSelectedLanguage(locale as string);
+  }, [locale]);
   return (
     <nav className=" border-gray-20  relative" ref={ref}>
       <div
@@ -51,7 +59,6 @@ const LanguageButton = () => {
                     }}
                   >
                     <a
-                      href="#"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                       role="menuitem"
                     >
