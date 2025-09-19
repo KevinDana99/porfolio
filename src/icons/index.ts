@@ -12,6 +12,7 @@ import ReduxIco from "@/icons/redux-svgrepo-com.svg";
 import GitRepoIco from "@/icons/repo.svg";
 import GitHubIco from "@/icons/github.svg";
 import ArrowRight from "@/icons/arrow-narrow-right-svgrepo-com.svg";
+import SearchIco from "@/icons/search-svgrepo-com.svg";
 export {
   JavascriptIco,
   TypescriptIco,
@@ -27,4 +28,5 @@ export {
   GitHubIco,
   GitRepoIco,
   ArrowRight,
+  SearchIco,
 };

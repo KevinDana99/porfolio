@@ -3,7 +3,7 @@ import LanguageButton from "@/components/ui/buttons/language/LanguageButton";
 import SwitcherButton from "@/components/ui/buttons/toggles/SwitchButton";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -14,6 +14,7 @@ const Nabvar = () => {
   };
   const pathname = usePathname();
   const { t } = useTranslation("common");
+  const { locale } = useParams();
   const itemsNavbar = [
     {
       name: `${t("Navbar.item.about")}`,
@@ -93,7 +94,7 @@ const Nabvar = () => {
             {itemsNavbar.map(({ name, href }, index) => (
               <li key={`key-itemsNavbar-${index}`}>
                 <Link
-                  href={href}
+                  href={`${locale}/${href}`}
                   className={`block py-2 px-3 dark:text-white rounded-sm md:bg-transparent md:p-0 ${
                     pathname === href &&
                     "md:text-gray-700  md:dark:text-gray-500"

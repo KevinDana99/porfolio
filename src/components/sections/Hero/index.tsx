@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <div
       style={{ height: "calc(100vh - 82px)" }}
-      className="bg-blue-500 flex items-center justify-center flex-col box-border"
+      className="bg-blue-500 flex items-center justify-center flex-col box-border overflow-hidden"
     >
       <div className="relative w-full h-100 flex mb-auto mt-10">
         <Marquee speed={100} direction="left">
@@ -63,9 +63,9 @@ const Hero = () => {
               </svg>
             </button>
           </div>
-          <div className="relative w-[500px] h-[500px] ">
+          <div className="relative w-[650px] h-[750px] ">
             <Image
-              src="/person.png"
+              src="/kev-photo-q.png"
               alt="person"
               fill
               className=" object-cover"
