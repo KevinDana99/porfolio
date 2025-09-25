@@ -2,7 +2,7 @@
 import Slider from "@/components/ui/sliders/Swiper";
 import useTheme from "@/theme/hooks/useTheme";
 import React from "react";
-import projectsMock from "@/mocks/proyects/index.json";
+import projectsMock from "@/mocks/projects/index.json";
 import SingleProject from "./SingleProject";
 import { useTranslation } from "react-i18next";
 
@@ -19,7 +19,7 @@ const ProjectsSection = () => {
         <Slider>
           {projectsMock.map((project, index) => (
             <div
-              key={`key-${index}-${project.image.src}-slider`}
+              key={`key-${index}-${project.img.src}-slider`}
               className="w-full h-auto"
             >
               <SingleProject project={project} />

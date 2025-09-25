@@ -13,6 +13,7 @@ import GitRepoIco from "@/icons/repo.svg";
 import GitHubIco from "@/icons/github.svg";
 import ArrowRight from "@/icons/arrow-narrow-right-svgrepo-com.svg";
 import SearchIco from "@/icons/search-svgrepo-com.svg";
+import CloseCircleIco from "@/icons/close-circle-svgrepo-com.svg";
 export {
   JavascriptIco,
   TypescriptIco,
@@ -29,4 +30,5 @@ export {
   GitRepoIco,
   ArrowRight,
   SearchIco,
+  CloseCircleIco,
 };

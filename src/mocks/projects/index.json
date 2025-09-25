@@ -1,0 +1,122 @@
+[
+  {
+    "id": "",
+    "name": "Nueva Energia",
+    "description": "Esta es una descripcion breve para la card vamos a probar haber si entra o no en el cuadro y esto nos permite tener una descripcion mas grande ",
+    "img": {
+      "src": "/assets/images/projects/nueva-energia.gif",
+      "alt": ""
+    },
+    "ico": {
+      "src": "/illustrations/nextjs-fill-svgrepo-com.svg",
+      "alt": ""
+    },
+    "categories": [
+      {
+        "name": "",
+        "ico": {
+          "src": "/illustrations/react-16-svgrepo-com.svg",
+          "alt": ""
+        }
+      },
+      {
+        "name": "Next",
+        "ico": {
+          "src": "/illustrations/nextjs-fill-svgrepo-com.svg",
+          "alt": ""
+        }
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "",
+    "name": "Patagonia Chic",
+    "description": "Esta es una descripcion breve para la card vamos a probar haber si entra o no en el cuadro y esto nos permite tener una descripcion mas grande ",
+    "img": {
+      "src": "/assets/images/projects/patagonia.gif",
+      "alt": ""
+    },
+    "ico": {
+      "src": "/illustrations/nextjs-fill-svgrepo-com.svg",
+      "alt": ""
+    },
+    "categories": [
+      {
+        "name": "",
+        "ico": {
+          "src": "/illustrations/react-16-svgrepo-com.svg",
+          "alt": ""
+        }
+      },
+      {
+        "name": "Next",
+        "ico": {
+          "src": "/illustrations/nextjs-fill-svgrepo-com.svg",
+          "alt": ""
+        }
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "",
+    "name": "Te Entrego",
+    "description": "Esta es una descripcion breve para la card vamos a probar haber si entra o no en el cuadro y esto nos permite tener una descripcion mas grande ",
+    "img": {
+      "src": "/assets/images/projects/te-entrego.gif",
+      "alt": ""
+    },
+    "ico": {
+      "src": "/illustrations/nextjs-fill-svgrepo-com.svg",
+      "alt": ""
+    },
+    "categories": [
+      {
+        "name": "",
+        "ico": {
+          "src": "/illustrations/react-16-svgrepo-com.svg",
+          "alt": ""
+        }
+      },
+      {
+        "name": "Next",
+        "ico": {
+          "src": "/illustrations/nextjs-fill-svgrepo-com.svg",
+          "alt": ""
+        }
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "",
+    "name": "Youme",
+    "description": "Esta es una descripcion breve para la card vamos a probar haber si entra o no en el cuadro y esto nos permite tener una descripcion mas grande ",
+    "img": {
+      "src": "/assets/images/projects/youme.gif",
+      "alt": ""
+    },
+    "ico": {
+      "src": "/illustrations/nextjs-fill-svgrepo-com.svg",
+      "alt": ""
+    },
+    "categories": [
+      {
+        "name": "",
+        "ico": {
+          "src": "/illustrations/react-16-svgrepo-com.svg",
+          "alt": ""
+        }
+      },
+      {
+        "name": "Next",
+        "ico": {
+          "src": "/illustrations/nextjs-fill-svgrepo-com.svg",
+          "alt": ""
+        }
+      }
+    ],
+    "tags": []
+  }
+]
