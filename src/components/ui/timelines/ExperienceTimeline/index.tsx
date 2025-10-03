@@ -1,12 +1,16 @@
 import React from "react";
 import ItemTimeline from "./ItemTimeline";
 import Image from "next/image";
-import timeline from "@/mocks/timeline";
+import timelineEn from "@/mocks/timeline/en";
+import timelineEs from "@/mocks/timeline/es";
+import { useParams } from "next/navigation";
 
 const ExperienceTimeline = () => {
+  const { locale } = useParams();
+  const timelineMock = locale === "en" ? timelineEn : timelineEs;
   return (
     <div className=" box-border flex-col h-[600px] ">
-      {timeline.map((experience, index) => (
+      {timelineMock.map((experience, index) => (
         <ItemTimeline
           key={`key-${index}-item-timeline`}
           title={experience.business_name}

@@ -9,14 +9,14 @@ const ProjectCard = ({
   title,
   description,
   onClick,
-  categories,
+  categories = [],
 }: {
   img: { src: string; alt: string };
   ico: { src: string; alt: string };
   title: string;
   description: string;
   onClick: () => void;
-  categories: [{ name: string; ico: { src: string; alt: string } }];
+  categories: [{ name: string; ico: { src: string; alt: string } }] | [];
 }) => {
   return (
     <Card
@@ -36,14 +36,14 @@ const ProjectCard = ({
       </div>
 
       <div className="flex justify-start items-start w-full h-auto pl-5 pr-5 pb-5 box-border">
-        {categories.map((category) => (
+        {categories.map((category, index) => (
           <Image
             src={category.ico.src}
             alt={category.ico.alt}
             width={35}
             height={35}
             className="mr-3"
-            key={`${category}-key-ico`}
+            key={`${index}-key-ico`}
           />
         ))}
       </div>

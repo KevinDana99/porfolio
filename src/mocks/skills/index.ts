@@ -1,15 +1,28 @@
 import {
+  ApiIco,
   ApolloIco,
+  AtlassianIco,
   CSS3Ico,
+  ExpoIco,
+  FirebaseIco,
   GitIco,
   GraphqlIco,
   HtmlIco,
   JavascriptIco,
+  MapIco,
+  MongoDbIco,
   NextIco,
   NodeIco,
+  PhpIco,
+  PwaIco,
   ReactIco,
   ReduxIco,
+  ShopifyIco,
+  StyledComponentsIco,
+  SwaggerIco,
   TypescriptIco,
+  WebpackIco,
+  WordpressIco,
 } from "@/icons";
 
 const skills = [
@@ -60,6 +73,11 @@ const skills = [
     version: null,
   },
   {
+    name: "Storybook",
+    ico: CSS3Ico,
+    version: null,
+  },
+  {
     name: "Git",
     ico: GitIco,
     version: null,
@@ -70,9 +88,84 @@ const skills = [
     version: null,
   },
   {
-    name: "CSS",
+    name: "PHP",
+    ico: PhpIco,
+    version: "8",
+  },
+  {
+    name: "SQL",
     ico: CSS3Ico,
-    version: "3",
+    version: null,
+  },
+  {
+    name: "MongoDB",
+    ico: MongoDbIco,
+    version: null,
+  },
+  {
+    name: "SQLite",
+    ico: CSS3Ico,
+    version: null,
+  },
+  {
+    name: "Firebase",
+    ico: FirebaseIco,
+    version: null,
+  },
+  {
+    name: "Webpack",
+    ico: WebpackIco,
+    version: null,
+  },
+  {
+    name: "PWA",
+    ico: PwaIco,
+    version: null,
+  },
+  {
+    name: "Swagger",
+    ico: SwaggerIco,
+    version: null,
+  },
+  {
+    name: "REST API",
+    ico: ApiIco,
+    version: null,
+  },
+  {
+    name: "Styled",
+    ico: StyledComponentsIco,
+    version: null,
+  },
+  {
+    name: "React Leafled",
+    ico: MapIco,
+    version: null,
+  },
+  {
+    name: "React Native",
+    ico: ReactIco,
+    version: null,
+  },
+  {
+    name: "Expo",
+    ico: ExpoIco,
+    version: null,
+  },
+  {
+    name: "Shopify",
+    ico: ShopifyIco,
+    version: null,
+  },
+  {
+    name: "Wordpress",
+    ico: WordpressIco,
+    version: null,
+  },
+  {
+    name: "Atlassian",
+    ico: AtlassianIco,
+    version: null,
   },
 ];
 

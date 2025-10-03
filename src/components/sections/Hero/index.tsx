@@ -1,6 +1,7 @@
 "use client";
 import skills from "@/mocks/skills";
 import Image from "next/image";
+import { useParams } from "next/navigation";
 import { useState } from "react";
 import Marquee from "react-fast-marquee";
 import { useTranslation } from "react-i18next";
@@ -8,6 +9,7 @@ import { useTranslation } from "react-i18next";
 const Hero = () => {
   const { t } = useTranslation("common");
   const [hover, setHover] = useState<null | number>(null);
+  const { locale } = useParams();
   return (
     <div
       style={{ height: "calc(100vh - 82px)" }}
@@ -34,7 +36,14 @@ const Hero = () => {
             <span className="text-8xl wrap-break-word w-2xl text-white">
               {t("Hero.Title.Text")}
             </span>
-            <a href="/docs/cv-Kevin-Dana-developer.pdf" download>
+            <a
+              href={
+                locale == "es"
+                  ? "/docs/cv/es/cv-Kevin-Dana-developer-es.pdf"
+                  : "/docs/cv/en/cv-Kevin-Dana-developer-en.pdf"
+              }
+              download
+            >
               <button
                 type="button"
                 className=" mt-20 text-center w-70 h-15 text-2xl cursor-pointer py-3 px-4 flex justify-center items-center gap-x-2 font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"

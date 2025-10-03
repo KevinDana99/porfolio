@@ -9,12 +9,10 @@ import { useTranslation } from "react-i18next";
 
 const Nabvar = () => {
   const [visibleMenu, setVisibleMenu] = useState(false);
-  const handleToggleVisibleMenu = () => {
-    setVisibleMenu(!visibleMenu);
-  };
   const pathname = usePathname();
   const { t } = useTranslation("common");
   const { locale } = useParams();
+
   const itemsNavbar = [
     {
       name: `${t("Navbar.item.about")}`,
@@ -94,7 +92,8 @@ const Nabvar = () => {
             {itemsNavbar.map(({ name, href }, index) => (
               <li key={`key-itemsNavbar-${index}`}>
                 <Link
-                  href={`${locale}/${href}`}
+                  locale={locale}
+                  href={`/${locale}/${href}`}
                   className={`block py-2 px-3 dark:text-white rounded-sm md:bg-transparent md:p-0 ${
                     pathname === href &&
                     "md:text-gray-700  md:dark:text-gray-500"

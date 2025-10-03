@@ -1,5 +1,6 @@
 "use client";
 import Github from "@/components/ui/integrations/Github";
+import Status from "@/components/ui/status/CommingSoon";
 import ExperienceTimeline from "@/components/ui/timelines/ExperienceTimeline";
 import useTheme from "@/theme/hooks/useTheme";
 import React from "react";
@@ -29,7 +30,11 @@ const Experience = () => {
             alt="Estadísticas de GitHub de kevindana99"
             width={550}
           />
-          <Github></Github>
+          <div className="mt-10 w-full h-full">
+            <Status status={null}>
+              <Github></Github>
+            </Status>
+          </div>
         </div>
       </div>
     </div>

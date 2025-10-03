@@ -1,0 +1,170 @@
+[
+  {
+    "name": " React.js",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/react-16-svgrepo-com.svg",
+      "alt": "React"
+    },
+    "img": {
+      "src": "/certificates/react-certificate.png",
+      "alt": "React"
+    }
+  },
+  {
+    "name": " Next 15 Avanzado",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/nextjs-fill-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/next-avanzado-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": " GraphQL y NodeJS",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/nodejs-icon.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/gql-node-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": " Javascript POO Basico",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/javascript-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/js-poo-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": " Javascript POO Intermedio",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/javascript-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/js-poo-intermedio-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": " Consumo de API REST Basico",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/javascript-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/api-rest-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": " Consumo de API REST Profesional",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/javascript-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/api-rest-pro-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": " Consumo de API REST Practico",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/javascript-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/api-rest-practico-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": "Animaciones CSS Practico",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/css-3-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/animaciones-css-practico-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": "Manipulacion de Arrays con Javascript",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/javascript-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/arrays-javascript-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": "Asincronismo con Javascript",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/javascript-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/async-javascript-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": "Ecmascript 6",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/javascript-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/es6-javascript-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": "Javascript Engine V8 y el Navegador",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/javascript-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/js-v8-engine-certificate.png",
+      "alt": ""
+    }
+  },
+  {
+    "name": "Debugging con Chrome Devtools",
+    "description": " de React.js PlatziPlatzi Expedición: abr. 2025Expedición: abr. 2025 ID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial 42f4929c-a77c-4579-84c0-3ead307eOcab",
+    "ico": {
+      "src": "/illustrations/javascript-svgrepo-com.svg",
+      "alt": ""
+    },
+    "img": {
+      "src": "/certificates/debugging-devtools-certificate.png",
+      "alt": ""
+    }
+  }
+]

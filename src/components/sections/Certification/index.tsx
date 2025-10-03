@@ -2,9 +2,13 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import skillsMock from "../../../mocks/skills";
-import certificationsMock from "../../../mocks/certifications/index.json";
+import learningSkillsMock from "../../../mocks/skills/learning/";
+import certificationsEn from "../../../mocks/certifications/en/index.json";
+import certificationsEs from "../../../mocks/certifications/es/index.json";
 import { ArrowRight } from "@/icons";
 import { useTranslation } from "react-i18next";
+import Link from "next/link";
+import { useParams } from "next/navigation";
 const Certification = () => {
   const [hover, setHover] = useState<number | null>(null);
   const handleHover = (id: number) => {
@@ -13,8 +17,10 @@ const Certification = () => {
   const handleHoverOut = () => {
     setHover(null);
   };
-
+  const { locale } = useParams();
   const { t } = useTranslation(["common"]);
+  const certificationsMock =
+    locale === "en" ? certificationsEn : certificationsEs;
   return (
     <div className="w-full h-auto flex justify-center items-start mt-20 ">
       <div className="flex flex-col mr-20">
@@ -36,28 +42,31 @@ const Certification = () => {
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-lg dark:text-white ">
-                      Certificacion de React.js
+                      {certification.name}
                     </h3>
                     <span className="text-sm dark:text-gray-400 text-gray-600">
-                      Certificacion de React.js PlatziPlatzi Expedición: abr.
-                      2025Expedición: abr. 2025 ID de la credencial
-                      42f4929c-a77c-4579-84c0-3ead307eOcabID de la credencial
-                      42f4929c-a77c-4579-84c0-3ead307eOcab
+                      {certification.description}
                     </span>
                   </div>
                 </div>
                 {hover === index && (
-                  <button className=" dark:border-0 border-2 border-solid border-neutral-900 text-black bg-white box-border dark:text-neutral-800 mt-5 rounded-xl h-10 p-5 dark:bg-neutral-200 shadow-sm w-full flex items-center justify-center cursor-pointer">
+                  <Link
+                    href={`${locale}/certifications/${index}`}
+                    className=" dark:border-0 border-2 border-solid border-neutral-900 text-black bg-white box-border dark:text-neutral-800 mt-5 rounded-xl h-10 p-5 dark:bg-neutral-200 shadow-sm w-full flex items-center justify-center cursor-pointer"
+                  >
                     {t("Certifications.Button.Text")}
-                  </button>
+                  </Link>
                 )}
               </div>
             ))}
           </div>
-          <button className="hover:scale-105 transition-all duration-300 cursor-pointer box-border text-white bg-blue-500 dark:text-neutral-800 mt-2 rounded-xl h-10 p-5 dark:bg-neutral-200 shadow-sm w-auto flex items-center">
+          <Link
+            href={`${locale}/certifications`}
+            className="hover:scale-105 transition-all duration-300 cursor-pointer box-border text-white bg-blue-500 dark:text-neutral-800 mt-2 rounded-xl h-10 p-5 dark:bg-neutral-200 shadow-sm w-auto flex items-center"
+          >
             <span className="mr-2">{t("Certifications.Section.Button")}</span>
             <ArrowRight width={20} height={20} />
-          </button>
+          </Link>
         </div>
       </div>
       <div className="flex flex-col">
@@ -85,7 +94,7 @@ const Certification = () => {
         </h2>
         <div className="p-7 flex rounded-2xl w-[600px] h-auto dark:bg-gray-800 bg-primary relative shadow-sm justify-center items-center">
           <div className="flex flex-wrap justify-start items-center w-[500px]">
-            {skillsMock.map((skill, index) => (
+            {learningSkillsMock.map((skill, index) => (
               <div
                 key={`key-image-${skill.name}-${index}`}
                 className="mr-3 mt-3 flex flex-col justify-center items-center w-[110px] h-[90px] text-gray-800
